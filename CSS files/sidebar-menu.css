@@ -1,0 +1,30 @@
+.sidebar-menu{
+    position: fixed;
+}
+
+.sidebar-menu-items{
+    font-size: 19px;
+    color: #0F141A;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    padding: 10px;
+    
+}
+.sidebar-menu-items--active{
+    color: #1da0f2;
+}
+.sidebar-menu-item-icon{
+    height: 26px;
+    margin-right: 20px;
+}
+
+.sidebar-menu-items--active .sidebar-menu-item-icon{
+    filter: invert(67%) sepia(60%) saturate(4956%) hue-rotate(176deg) brightness(95%) contrast(99%);
+}
+.sidebar-menu-items:hover{
+    border-radius: 20px;
+    background-color:rgb(29,161,242,0.1);
+    color:#1da0f2 ;
+    cursor: pointer;
+}
