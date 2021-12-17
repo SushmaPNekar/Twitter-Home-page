@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Twitter Home Page</title>
     <link rel="stylesheet" href="./CSS files/Layout.css" >
+    <link rel="stylesheet" href="./CSS files/global.css" >
     <link rel="stylesheet" href="./CSS files/svg/logo.css" >
     <link rel="stylesheet" href="./CSS files/sidebar-menu.css" >
+    <link rel="stylesheet" href="./CSS files/mainCss/profile.css" >
+    <link rel="stylesheet" href="./CSS files/mainCss/tweet.css" >
 </head>
 
 <body>
@@ -42,9 +45,155 @@
 
             </div> 
         </div>
-        <div class="layout_main"><h1>Main</h1>
-            <p>
-            </p>
+        <div class="layout_main">
+
+           
+
+            <div class="tweet">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3CDY083aP0trxyzbQex2u_lpdDTAOQ1zbgA&usqp=CAU" class="tweet_author-logo" />
+                <div class="tweet_main">
+                    <div class="tweet_header">
+                        <div class="tweet_author-name">
+                            Sushma Nekar P
+                        </div>
+                        <div class="tweet_author-slug">
+                            @sushmapnekar
+                        </div>
+                        <div class="tweet_publish-time">
+                            12m
+                        </div>
+                    </div>
+                    <div class="tweet_content">
+                        Yet Another Guide To Build a JSON API with Phoenix 1.5 shared in
+                        the latest Elixir Digest
+                        <a href="https://elixirdigest.net/digests/276"
+                         >https://elixirdigest.net/digests/276</a><br>
+              
+                        @_tamas_soos #myelixirstatus #elixirlang #phoenixframework
+                    </div>
+                    <div class="tweet_footer"></div>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <img src="https://d2qp0siotla746.cloudfront.net/img/use-cases/profile-picture/template_2.jpg" class="tweet_author-logo" />
+                <div class="tweet_main">
+                    <div class="tweet_header">
+                        <div class="tweet_author-name">
+                            Akanksha 
+                        </div>
+                        <div class="tweet_author-slug">
+                            @meakanksha
+                        </div>
+                        <div class="tweet_publish-time">
+                            3h
+                        </div>
+                    </div>
+                    <div class="tweet_content">
+                        Vacation is going great!!!
+                        <img class="img" src="data:image/jpeg;base64,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" />
+
+                    </div>
+                    <div class="tweet_footer"></div>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <img src="https://d2qp0siotla746.cloudfront.net/img/use-cases/profile-picture/template_1.jpg" class="tweet_author-logo" />
+                <div class="tweet_main">
+                    <div class="tweet_header">
+                        <div class="tweet_author-name">
+                            Milina Elix
+                        </div>
+                        <div class="tweet_author-slug">
+                            @elixmilina
+                        </div>
+                        <div class="tweet_publish-time">
+                            9hr
+                        </div>
+                    </div>
+                    <div class="tweet_content">
+                        One of my favorite things about the "ergonomics" of haskell is
+              being able to leave underscores in code that isn't finished yet,
+              and the type checker still works and provides useful information
+              about the incomplete code. ("holes" --
+              <a href="https://typeclasses.com/typed-holes"
+                >https://typeclasses.com/typed-holes</a
+              >)
+              <img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRalfTPKRUcIypE9O9ZylNU4ekRMj6fPdPp8g&usqp=CAU" />
+             
+                    </div>
+                    <div class="tweet_footer"></div>
+                </div>
+            </div>
+
+           
+
+            <div class="tweet">
+                <img src="https://d2qp0siotla746.cloudfront.net/img/use-cases/profile-picture/template_3.jpg" class="tweet_author-logo" />
+                <div class="tweet_main">
+                    <div class="tweet_header">
+                        <div class="tweet_author-name">
+                            Manisha (mardini)
+                        </div>
+                        <div class="tweet_author-slug">
+                            @mardinimanisha
+                        </div>
+                        <div class="tweet_publish-time">
+                            12m
+                        </div>
+                    </div>
+                    <div class="tweet_content">
+                        Thought for the day : Don't worry about people from your past. There's a reason why they did not make it to your future!
+                    </div>
+                    <div class="tweet_footer"></div>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <img src="https://d2qp0siotla746.cloudfront.net/img/use-cases/profile-picture/template_4.jpg" class="tweet_author-logo" />
+                <div class="tweet_main">
+                    <div class="tweet_header">
+                        <div class="tweet_author-name">
+                            Akash Chopra
+                        </div>
+                        <div class="tweet_author-slug">
+                            @akashhhh
+                        </div>
+                        <div class="tweet_publish-time">
+                            12m
+                        </div>
+                    </div>
+                    <div class="tweet_content">
+                       Thank you !!!
+                    </div>
+                    <div class="tweet_footer"></div>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqcob9ngGFdqzc8hVxlX0pp3POjlRhZMQAbA&usqp=CAU" class="tweet_author-logo" />
+                <div class="tweet_main">
+                    <div class="tweet_header">
+                        <div class="tweet_author-name">
+                            Kohli Virat
+                        </div>
+                        <div class="tweet_author-slug">
+                            @imkohlivirat
+                        </div>
+                        <div class="tweet_publish-time">
+                            2d
+                        </div>
+                    </div>
+                    <div class="tweet_content">
+                       Looking forwad to score lot of runs for my team
+                       <img src="https://resources.pulse.icc-cricket.com/ICC/photo/2020/12/29/02f68232-aa9c-4cac-94af-43116b5e550e/DhNWkDYL.jpg" class="img"/>
+              
+                    </div>
+                    <div class="tweet_footer"></div>
+                </div>
+            </div>
+            
             </div>
 
 
