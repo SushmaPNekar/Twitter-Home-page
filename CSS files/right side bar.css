@@ -2,6 +2,7 @@
     border-radius: 15px;
     background-color: #f5f8fa;
     margin-left: 20px;
+    margin-bottom: 15px;
 }
 .trends-for-you_block{
     border-bottom: 1px solid #e6ecf0;
@@ -24,5 +25,59 @@
     color: #14171a;
     margin-bottom: 5px;
     margin-top: 2px;
+}
+.trends-for-you_block:last-child{
+    border-bottom: none;
+}
 
+.who-to-follow{
+    background-color: #f5f8fa;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+.who-to-follow_heading{
+    font-size: 19px;
+    font-weight: bold;
+
+}
+.who-to-follow_block{
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e6ecf0;
+}
+.who-to-follow_content{
+    display: flex;
+    justify-content: space-between;
+    width:100% ;
+
+}
+.who-to-follow_author-logo{
+    height: 49px;
+    width: 49px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.who-to-follow_author-name{
+   font-size: 15px;
+   font-weight: 700;
+}
+
+.who-to-follow_author-slug{
+    color: #657765;
+    font-size: 15px;
+}
+.who-to-follow_button{
+    border: 1px solid #1da0f2;
+    color: #1da0f2;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 25px;
+    padding: 5px;
+    min-width: 67px;
+    text-align: center;
+}
+.who-to-follow_button:hover{
+    background-color: rgba(29,161,242,0.1);
+    cursor: pointer;
 }

@@ -16,40 +16,48 @@
 
 <body>
     <div class="layout">
-        <div class="layout_left-sidebar">
-            <img src="./svg/twitter.svg" class="logo">
-            <div class="sidebar-menu">
-                <div class="sidebar-menu-items sidebar-menu-items--active">
-                    <img src="./svg/home.svg" class="sidebar-menu-item-icon" />
-                   Home
+        <div class="layout_left-sidebar-container">
+            <div class="layout_left-sidebar">
+                <img src="./svg/twitter.svg" class="logo">
+                <div class="sidebar-menu">
+                    <div class="sidebar-menu-items sidebar-menu-items--active">
+                        <img src="./svg/home.svg" class="sidebar-menu-item-icon" />
+                       Home
+                    </div>
+                    <div class="sidebar-menu-items">
+                        <img src="./svg/explore.svg" class="sidebar-menu-item-icon" />
+                       Explore
+                    </div>
+                    <div class="sidebar-menu-items">
+                        <img src="./svg/notifications.svg" class="sidebar-menu-item-icon" />
+                       Notifications
+                    </div>
+                    <div class="sidebar-menu-items">
+                        <img src="./svg/messages.svg" class="sidebar-menu-item-icon" />
+                       Messages
+                    </div>
+                    <div class="sidebar-menu-items">
+                        <img src="./svg/profile.svg" class="sidebar-menu-item-icon" />
+                       Profile
+                    </div>
+                    <div class="sidebar-menu-items">
+                        <img src="./svg/more.svg" class="sidebar-menu-item-icon" />
+                       More
+                    </div>
+                   
+                </div> 
+                <div class="tweet-div-button">
+                    <div class="tweet-button">
+                        Tweet
+                    </div>
                 </div>
-                <div class="sidebar-menu-items">
-                    <img src="./svg/explore.svg" class="sidebar-menu-item-icon" />
-                   Explore
-                </div>
-                <div class="sidebar-menu-items">
-                    <img src="./svg/notifications.svg" class="sidebar-menu-item-icon" />
-                   Notifications
-                </div>
-                <div class="sidebar-menu-items">
-                    <img src="./svg/messages.svg" class="sidebar-menu-item-icon" />
-                   Messages
-                </div>
-                <div class="sidebar-menu-items">
-                    <img src="./svg/profile.svg" class="sidebar-menu-item-icon" />
-                   Profile
-                </div>
-                <div class="sidebar-menu-items">
-                    <img src="./svg/more.svg" class="sidebar-menu-item-icon" />
-                   More
-                </div>
+                
+               
+            </div>
 
-            </div> 
         </div>
+        
         <div class="layout_main">
-
-           
-
             <div class="tweet">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3CDY083aP0trxyzbQex2u_lpdDTAOQ1zbgA&usqp=CAU" class="tweet_author-logo" />
                 <div class="tweet_main">
@@ -115,21 +123,18 @@
                     </div>
                     <div class="tweet_content">
                         One of my favorite things about the "ergonomics" of haskell is
-              being able to leave underscores in code that isn't finished yet,
-              and the type checker still works and provides useful information
-              about the incomplete code. ("holes" --
-              <a href="https://typeclasses.com/typed-holes"
-                >https://typeclasses.com/typed-holes</a
-              >)
-              <img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRalfTPKRUcIypE9O9ZylNU4ekRMj6fPdPp8g&usqp=CAU" />
+                        being able to leave underscores in code that isn't finished yet,
+                        and the type checker still works and provides useful information
+                        about the incomplete code. ("holes" --
+                        <a href="https://typeclasses.com/typed-holes"
+                        >https://typeclasses.com/typed-holes</a
+                        >)
+                    <img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRalfTPKRUcIypE9O9ZylNU4ekRMj6fPdPp8g&usqp=CAU" />
              
                     </div>
                     <div class="tweet_footer"></div>
                 </div>
             </div>
-
-           
-
             <div class="tweet">
                 <img src="https://d2qp0siotla746.cloudfront.net/img/use-cases/profile-picture/template_3.jpg" class="tweet_author-logo" />
                 <div class="tweet_main">
@@ -188,16 +193,12 @@
                     </div>
                     <div class="tweet_content">
                        Looking forwad to score lot of runs for my team
-                       <img src="https://resources.pulse.icc-cricket.com/ICC/photo/2020/12/29/02f68232-aa9c-4cac-94af-43116b5e550e/DhNWkDYL.jpg" class="img"/>
-              
+                       <img src="https://resources.pulse.icc-cricket.com/ICC/photo/2020/12/29/02f68232-aa9c-4cac-94af-43116b5e550e/DhNWkDYL.jpg" class="img"/>             
                     </div>
                     <div class="tweet_footer"></div>
                 </div>
+            </div>         
             </div>
-            
-            </div>
-
-
         <div class="layout_right-sidebar-container">
             <div class="layout_right-sidebar">
                 <div class="trends-for-you">
@@ -206,7 +207,6 @@
                             Trends for you 
                         </div>
                     </div>
-
                     <div class="trends-for-you_block">
                         <div class="trends-for-you_meta-info">
                             Trending in India
@@ -218,7 +218,17 @@
                             155k tweets
                         </div>
                     </div>
-
+                    <div class="trends-for-you_block">
+                        <div class="trends-for-you_meta-info">
+                            Trending in Germany
+                        </div>
+                        <div class="trends-for-you_trend-name">
+                            #AmazonPrimeDay
+                        </div>
+                        <div class="trends-for-you_meta-info">
+                            95k tweets
+                        </div>
+                    </div>
                     <div class="trends-for-you_block">
                         <div class="trends-for-you_meta-info">
                             Trending in Germany
@@ -231,18 +241,49 @@
                         </div>
                     </div>
 
-                    <div class="trends-for-you_block">
-                        <div class="trends-for-you_meta-info">
-                            Trending in Germany
+
+                </div>
+
+                <div class="who-to-follow">
+                    <div class="who-to-follow_block">
+                        <div class="who-to-follow_heading">
+                            Who to follow 
                         </div>
-                        <div class="trends-for-you_trend-name">
-                            #AmazonPrimeDay
-                        </div>
-                        <div class="trends-for-you_meta-info">
-                            95k tweets
+                    </div>
+                    <div class="who-to-follow_block">
+                        <img class="who-to-follow_author-logo" src="https://images.pexels.com/photos/573299/pexels-photo-573299.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+                        <div class="who-to-follow_content">
+                            <div>
+                                <div class="who-to-follow_author-name">
+                                    Deepika 
+                                </div>
+                                <div class="who-to-follow_author-slug">
+                                    @imdeepikaRai
+                                </div>
+                            </div>
+                                <div class="who-to-follow_button">
+                                    Follow
+                                </div>  
                         </div>
                     </div>
 
+                    <div class="who-to-follow_block">
+                        <img class="who-to-follow_author-logo" src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+                        <div class="who-to-follow_content">
+                            <div>
+                                <div class="who-to-follow_author-name">
+                                    Pallavi Shetty
+                                </div>
+                                <div class="who-to-follow_author-slug">
+                                    @shettypallavi
+                                </div>
+                            </div>
+                                <div class="who-to-follow_button">
+                                    Follow
+                                </div>
+                           
+                        </div>
+                    </div>
 
                 </div>
             </div>

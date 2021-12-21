@@ -1,5 +1,6 @@
 .sidebar-menu{
-    position: fixed;
+    
+    height: 300px;
 }
 
 .sidebar-menu-items{
@@ -27,4 +28,20 @@
     background-color:rgb(29,161,242,0.1);
     color:#1da0f2 ;
     cursor: pointer;
+}
+.tweet-button{
+    background-color: #1da0f2;
+    border-radius: 25px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;  
+    height: 30px; 
+    padding-top: 10px;
+}
+.tweet-div-button{
+    
+    width: 75%;
+    
+    
 }
