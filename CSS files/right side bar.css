@@ -1,7 +1,7 @@
 .trends-for-you{
     border-radius: 15px;
     background-color: #f5f8fa;
-    margin-left: 20px;
+    
     margin-bottom: 15px;
 }
 .trends-for-you_block{
@@ -30,10 +30,13 @@
     border-bottom: none;
 }
 
+.who-to-follow_block:last-child{
+    border-bottom: none;
+}
 .who-to-follow{
     background-color: #f5f8fa;
     border-radius: 15px;
-    margin-left: 20px;
+   
 }
 .who-to-follow_heading{
     font-size: 19px;
@@ -80,4 +83,31 @@
 .who-to-follow_button:hover{
     background-color: rgba(29,161,242,0.1);
     cursor: pointer;
+}
+.show-more{
+    color: #1da0f2;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.search-bar{
+    background-color:#f5f8fa ;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    height: 40px;
+   
+}
+.to-search{
+    background-color: transparent;
+    border: none;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.search-bar-icon{
+    color: #657765;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: 500;
 }
